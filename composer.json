@@ -1,6 +1,7 @@
 {
     "name": "yuanjy/test-sdk",
     "description": "test sdk",
+    "type": "library",
     "authors": [
         {
             "name": "yuanjiayang",
@@ -17,5 +18,7 @@
         "psr-4": {
             "Test\\Yuan\\": "src/Yuan"
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
 }
