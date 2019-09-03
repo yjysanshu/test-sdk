@@ -1,0 +1,21 @@
+{
+    "name": "yuanjy/test-sdk",
+    "description": "test sdk",
+    "authors": [
+        {
+            "name": "yuanjiayang",
+            "email": "yuanjiayang@qiezilife.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\Yuan\\": "src/Yuan"
+        }
+    }
+}
